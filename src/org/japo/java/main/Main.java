@@ -23,6 +23,9 @@ import java.util.Random;
  */
 public class Main {
 
+    // Instanciar Random
+    public static final Random RND = new Random();
+
     /**
      * @param args the command line arguments
      */
@@ -31,16 +34,13 @@ public class Main {
         final int TALLA_MIN = 20;
         final int TALLA_MAX = 60;
 
-        // Instanciar Random
-        Random rnd = new Random();
-
         // Variable
         int talla;
 
         // Generar dato
-        talla = rnd.nextInt(TALLA_MAX - TALLA_MIN + 1) + TALLA_MIN;
+        talla = RND.nextInt(TALLA_MAX - TALLA_MIN + 1) + TALLA_MIN;
 
         // Mensaje
-        System.out.printf("Talla de zapato ....: %d\n", talla);
+        System.out.printf("Talla de zapato ....: %d%n", talla);
     }
 }

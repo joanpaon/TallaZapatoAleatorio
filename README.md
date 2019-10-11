@@ -1,13 +1,11 @@
 <pre>
 
 Project .....: TallaZapatoAleatorio
-Summary .....: Java 8 | Netbeans 8.2 | Programas - Valores Aleatorios #03
+Summary .....: Programas - Valores Aleatorios #03
 Creation ....: 26/10/2016
-Modification : 
-Version .....: 
 Author ......: José A. Pacheco Ondoño - joanpaon@gmail.com
-Platform ....: Java 8
-IDE .........: NetBeans 8.2
+Platform ....: Java 11
+IDE .........: NetBeans 11
 Remote ......: https://github.com/joanpaon/TallaZapatoAleatorio.git
 
 </pre>
